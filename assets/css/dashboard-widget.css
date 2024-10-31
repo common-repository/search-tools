@@ -1,0 +1,51 @@
+@import url('styles.css?v=1.0.4');
+
+/*
+*   TAB NAVIGATION
+*/
+.seto-dashboard-wrap {
+    margin: -12px -12px;
+    padding: 0 0 12px;
+}
+.seto-dashboard-tabnav {
+    display: flex;
+    margin: 0;
+    padding: 12px 0;
+    width: 100%;
+    background-color: var(--seto-light);
+}
+.seto-dashboard-tabnav li {
+    margin: 0;
+}
+.seto-dashboard-tablink {
+    padding: 12px;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    font-weight: bold;
+    color: var(--seto-primary); 
+}
+.seto-dashboard-tablink.is-active {
+    color: var(--seto-dark); 
+    border-bottom-color: var(--seto-dark);
+}
+.seto-dashboard-tablink:hover {
+    color: var(--seto-dark);
+}
+.seto-dashboard-tablink:focus {
+    color: var(--seto-tertiary);
+    outline: none;
+    box-shadow: none;
+}
+.seto-dashboard-tabcontent-wrap {
+    padding: 0 0 12px;
+}
+.seto-dashboard-tabcontent {
+    display: none;
+}
+.seto-dashboard-tabcontent.is-active {
+    display: block;
+}
+
+.seto-dashboard-table th {
+    border-bottom: 1px solid var(--seto-light);
+}
